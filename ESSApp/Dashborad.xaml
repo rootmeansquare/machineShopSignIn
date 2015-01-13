@@ -1,0 +1,16 @@
+﻿<Window x:Class="ESSApp.Dashborad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dashborad" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="StudentName" Content="Student Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="Student_Number" Content="Student Number&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sign up to machine waitlist. &#xD;&#xA;When a spot is open, an&#xD;&#xA;email will be sent notifying you. &#xD;&#xA;You will have 15 mins to confirm." HorizontalAlignment="Left" Margin="97,78,0,0" VerticalAlignment="Top" Height="78"/>
+        <Button x:Name="WaitList" Content="Wait List" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" Width="75" Click="WaitList_Click"/>
+        <Button x:Name="Confirm" Content="Confirm" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Delete_Spot" Content="Delete Spot" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Sign_Out" Content="Sign Out" HorizontalAlignment="Left" Margin="207,239,0,0" VerticalAlignment="Top" Width="75" Background="#FFFF4747"/>
+        <Button x:Name="Sign_In" Content="Sign In" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Background="#FF3BEC07"/>
+
+    </Grid>
+</Window>
